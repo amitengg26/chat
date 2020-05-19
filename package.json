@@ -12,6 +12,7 @@
     "url": "https://github.com/mdn/samples-server.git"
   },
   "scripts": {
+    "start":"node chatserver.js", 
     "postinstall": "cp node_modules/webrtc-adapter/out/adapter.js ."
   },
   "dependencies": {
